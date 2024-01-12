@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+## Kafka producer will connect to kafka server on localhost:9092
+## Mention mulitple servers : localhost:9092, localhost:9093, ....
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      ## Configure serializer for key
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      ## Configure serializer for value
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
