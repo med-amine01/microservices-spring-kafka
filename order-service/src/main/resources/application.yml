@@ -2,7 +2,7 @@ server:
   port: 8083
 
 ## Kafka producer will connect to kafka server on localhost:9092
-## Mention mulitple servers : localhost:9092, localhost:9093, ....
+## Mention multiple servers : localhost:9092, localhost:9093, ....
 spring:
   kafka:
     producer:

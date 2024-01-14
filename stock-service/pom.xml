@@ -36,6 +36,13 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--		ADDING DOMAIN BASE		-->
+		<dependency>
+			<groupId>m.chebbi.tech</groupId>
+			<artifactId>base-domains</artifactId>
+			<version>${version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
