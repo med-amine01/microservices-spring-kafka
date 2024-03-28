@@ -7,7 +7,7 @@ spring:
     consumer:
       bootstrap-servers: localhost:9092
       group-id: mail
-      ## rest : Consumer starts consuming from the END of the partition
+      ## latest : Consumer starts consuming from the END of the partition
       ## earliest : Consumer starts consuming from the BEGINNING of the partition
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
